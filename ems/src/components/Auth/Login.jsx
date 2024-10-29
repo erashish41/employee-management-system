@@ -6,7 +6,7 @@ const Login = () => {
         <div className='border-2 border-red-600'>
             <form className='flex flex-col items-center justify-center'>
                 <input 
-                className='text-black border-2 border-emerald-600 px-3 py-3 mx-2 my-2 text-xl rounded-full' 
+                className='text-black outline-none border-2 border-emerald-600 px-3 py-3 mx-2 my-2 text-xl rounded-full' 
                 type='email' 
                 placeholder='email'/>
                 <input type='password' placeholder='password'/>
