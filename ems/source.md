@@ -1,0 +1,18 @@
+**website page flow**
+- src
+    -component
+        -Auth
+            -Login.jsx
+        -Dashboard
+            -AdminDashboard.jsx
+            -EmloyeeDashboard.jsx
+        -TaskList
+            -AcceptTask.jsx
+            -CompleteTask.jsx
+            -FailedTask.jsx
+            -NewTask.jsx
+    - context
+        -AuthContext.jsx
+        -TaskContext.jsx
+    - utils
+        -LocalStorage.jsx
