@@ -1,4 +1,4 @@
-**website page flow**
+**website page flow of folders**
 - src
     - component
         - Auth
@@ -18,9 +18,15 @@
         - LocalStorage.jsx
 
 
-- Login.jsx- Tailwind Css added in it
+- Login.jsx: Tailwind Css added in it
+-flex-col: flex-col class in Tailwind CSS applies flex-direction: column;, which makes flex 
+    items stack vertically instead of horizontally
 -h-screen and w-screen used to set the height and weight of element to full height and weight 
     of viewPoint
--h-screen is same as height: 100vh and weight: 100vw
+-h-screen: is same as height: 100vh and weight: 100vw
 
--rounded-xl
+-rounded-xl: It gives the element a slightly more pronounced curve, which can add a softer and 
+    more modern look.
+
+- 2 way binding: Two-way data binding is like a bridge that connects your form components and
+     the application's state.
