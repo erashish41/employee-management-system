@@ -39,3 +39,10 @@
 - Header.jsx is used to make header of website  
 - TaskItemList.jsx is used to make content of Employee with TaskItemList.jsx
 - TaskList.jsx is used to make
+
+-#tasklist::-webkit-scrollbar{
+    display:none
+}
+-flex-nowrap: it will show content in horizontal way.
+-mb-2: margin bottom
+-leading-5: This class set the line-height at 1.25rem. It depends on the height of content
