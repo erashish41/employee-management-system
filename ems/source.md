@@ -13,8 +13,9 @@
             - NewTask.jsx
             - TaskList.jsx
         - others
-            - Header.jsx
             - TaskItemList.jsx
+            - Header.jsx
+            - CreateTask.jsx
     - context
         - AuthContext.jsx
         - TaskContext.jsx
@@ -36,9 +37,9 @@
      the application's state.
 
 2. EmloyeeDashboard.jsx: 
-- Header.jsx is used to make header of website  
-- TaskItemList.jsx is used to make content of Employee with TaskItemList.jsx
-- TaskList.jsx is used to make
+- Header.jsx is added and used to make header of website.
+- TaskItemList.jsx is added and used to make content of Employee with TaskItemList.jsx.
+- TaskList.jsx is added and used to make tasks.
 
 -#tasklist::-webkit-scrollbar{
     display:none
@@ -46,3 +47,7 @@
 -flex-nowrap: it will show content in horizontal way.
 -mb-2: margin bottom
 -leading-5: This class set the line-height at 1.25rem. It depends on the height of content
+
+3. AdminDashboard.jsx: Header.jsx is added 
+- CreateTask.jsx is added
+-mb-0.5	margin-bottom: 0.125rem; /* 2px */
