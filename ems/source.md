@@ -55,6 +55,8 @@ AdminDashboard.jsx: Header.jsx is added
 
 - CreateTask.jsx is added
 -mb-0.5	margin-bottom: 0.125rem; /* 2px */
+-w-2/5: This sets the width of the <div> to 2/5 of the parent container.
 -w-full: This class means the width is set to full.
+
 -AllTask.jsx
 -h-40 overflow-auto: due to this task will go up down direction by mouse

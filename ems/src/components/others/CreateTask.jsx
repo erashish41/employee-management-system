@@ -23,7 +23,7 @@ const CreateTask = () => {
                 </div>
             </div>
 
-            <div className='flex items-start flex-col'>
+            <div className='w-2/5 flex items-start flex-col'>
                 <h3 className='text-sm text-gray-300 mb-0.5'>Description</h3>
                 <textarea className='w-full h-44 text-sm py-1 px-2 rounded outline-none bg-transparent border-[1px] border-gray-400 mb-4' name='' id='' cols='30' rows='10'></textarea>
                 <button className='bg-emerald-500 py-3 px-2 w-full hover:bg-emerald-700 rounded text-sm mt-4 mb-2'>Create task</button>

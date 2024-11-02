@@ -13,7 +13,7 @@ const AllTask = () => {
             <h3>Make a UI design</h3>
             <h5>Status</h5>
         </div>
-        <div className='bg-blue-400 mb-3 rounded py-2 px-4 flex items-start justify-between'>
+        <div className='bg-purple-400 mb-3 rounded py-2 px-4 flex items-start justify-between'>
             <h2>Ashish</h2>
             <h3>Make a UI design</h3>
             <h5>Status</h5>
@@ -23,7 +23,7 @@ const AllTask = () => {
             <h3>Make a UI design</h3>
             <h5>Status</h5>
         </div>
-        <div className='bg-orange-400 mb-3 rounded py-2 px-4 flex items-start justify-between'>
+        <div className='bg-blue-400 mb-3 rounded py-2 px-4 flex items-start justify-between'>
             <h2>Ashish</h2>
             <h3>Make a UI design</h3>
             <h5>Status</h5>
