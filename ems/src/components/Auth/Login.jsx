@@ -40,7 +40,7 @@ const Login = () => {
                     type='password' placeholder='password'
                 />
                 <button
-                    className='text-white outline-none border-none bg-emerald-600 px-3 py-3 mx-2 my-2 text-xl rounded-full'
+                    className='text-white border-none bg-emerald-600 px-3 py-3 mx-2 my-2 text-xl rounded-full'
                     type='submit'>Log in    
                 </button>
             </form>

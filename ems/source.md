@@ -64,3 +64,5 @@ AdminDashboard.jsx: Header.jsx is added
 4. Context API 
 -AuthContext.jsx
 -TaskContext.jsx
+-In this Context API AuthContext.jsx is wrap inside of TaskContext.jsx and App.jsx is wrapped in it.
+-If we can wrap AuthContext.jsx to TaskContext.jsx or vice versa both will work
