@@ -16,6 +16,7 @@
             - TaskItemList.jsx
             - Header.jsx
             - CreateTask.jsx
+            - AllTask.jsx
     - context
         - AuthContext.jsx
         - TaskContext.jsx
@@ -55,3 +56,5 @@ AdminDashboard.jsx: Header.jsx is added
 - CreateTask.jsx is added
 -mb-0.5	margin-bottom: 0.125rem; /* 2px */
 -w-full: This class means the width is set to full.
+-AllTask.jsx
+-h-40 overflow-auto: due to this task will go up down direction by mouse
