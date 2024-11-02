@@ -60,3 +60,7 @@ AdminDashboard.jsx: Header.jsx is added
 
 -AllTask.jsx
 -h-40 overflow-auto: due to this task will go up down direction by mouse
+
+4. Context API 
+-AuthContext.jsx
+-TaskContext.jsx
