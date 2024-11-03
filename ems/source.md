@@ -66,3 +66,6 @@ AdminDashboard.jsx: Header.jsx is added
 -TaskContext.jsx
 -In this Context API AuthContext.jsx is wrap inside of TaskContext.jsx and App.jsx is wrapped in it.
 -If we can wrap AuthContext.jsx to TaskContext.jsx or vice versa both will work
+
+-Local storage: to clear it we use localStorage.clear() in main.jsx file after this now delete 
+    localStorage.clear() from main.jsx
