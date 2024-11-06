@@ -1,3 +1,7 @@
+// this is the data taken from Chatgpt
+// do one thing, give each employee a task array with 3-10 task with properties like 
+//   active (true or false), new Task (true or false), completed(true or false), 
+//   failed(true or false), and task title, task description, task date, category.
 
 const employees = [
     {
@@ -213,4 +217,12 @@ const admin = [{
 export const setLocalStorage = () => {
     localStorage.setItem('employees', JSON.stringify(employees));
     localStorage.setItem('admin', JSON.stringify(admin))
+}
+// we can't get the data of employees in console we have to stringify it with JSON
+
+export const getLocalStorage = () => {
+    const employees = JSON.parse(localStorage.getItem('employees'));
+    const admin = JSON.parse(localStorage.getItem('admin'));
+    console.log(employees, admin);
+    
 }
