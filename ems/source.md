@@ -69,3 +69,14 @@ AdminDashboard.jsx: Header.jsx is added
 
 -Local storage: to clear it we use localStorage.clear() in main.jsx file after this now delete 
     localStorage.clear() from main.jsx
+
+-to set local storage go to LocalStroage.jsx, then write function:
+        export const setLocalStorage = () => {
+            localStorage.setItem('employees', JSON.stringify(employees));
+            localStorage.setItem('admin', JSON.stringify(admin))
+        }
+-to check the data in console go to "application" option 
+-and put setLocalStorage() in useEffect in App.jsx
+        useEffect(()=>{
+            setLocalStorage()
+        })
