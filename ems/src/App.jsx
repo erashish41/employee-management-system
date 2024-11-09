@@ -12,8 +12,11 @@ const App = () => {
   const handleLogin = (email, password) => {
     if(email == "admin@me.com" && password == "123"){
       console.log("This is admin");
+      setUser("admin")
     }else if(email == "user@me.com" && password == "123"){
       console.log("This is user");
+      setUser("user")
+      setLocalStorage("userRole", "user");
     }
     else{
       alert("Invalid Credentials")
@@ -29,6 +32,7 @@ const App = () => {
       {/* <AdminDashboard /> */}
     </>
   )
+}
 }
 
 export default App

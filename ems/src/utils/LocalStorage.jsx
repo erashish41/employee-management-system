@@ -218,6 +218,7 @@ export const setLocalStorage = () => {
     localStorage.setItem('employees', JSON.stringify(employees));
     localStorage.setItem('admin', JSON.stringify(admin))
 }
+// employees is a variable (probably an array or object) that holds information about employees.
 // we can't get the data of employees in console we have to stringify it with JSON
 
 export const getLocalStorage = () => {
